@@ -1,0 +1,174 @@
+[
+    {
+        "Department": {
+            "id": "0x80C3000C295831B711E73EEC2DD2FC48",
+            "name": "Психология образования",
+            "code": "ПО"
+        },
+        "Group": {
+            "id": "0x80DD000C295831C111EB55E8AB2CE8D8",
+            "name": "20ПО-ППО(м/з)ППСО-2"
+        },
+        "Teacher": {
+            "id": "0x80C9000C295831B711E8E99640E3ABEE",
+            "name": "Лобанова Анна Вячеславовна"
+        },
+        "Coords": {
+            "building": {
+                "id": "0x80C3000C295831B711E767BADC094FD5",
+                "name": "Дистанционно"
+            },
+            "floor": {
+                "id": "0x80DD000C295831C111EB0EF855410556",
+                "name": "Дистанционно"
+            },
+            "room": {
+                "index": "WebEx",
+                "id": "0x80DD000C295831C111EB0F85E0B7644C"
+            }
+        },
+        "Discipline": "Модуль 3 \"Проектирование и экспертиза эффективности программ в образовании и социальной сфере\"",
+        "SemesterName": "Весенний",
+        "Number": null,
+        "Type": null,
+        "TeacherFIO": "Лобанова Анна Вячеславовна",
+        "dayDate": "10.01.2022",
+        "dayOfWeekName": "понедельник",
+        "TypeShort": null,
+        "TimeStart": null,
+        "TimeEnd": null,
+        "lessonTimeRange": "10:40 (Консультация)",
+        "DisciplineID": "0x80DB000C295831C111EAC504EFBC46A0",
+        "TypeID": null,
+        "SemesterID": "0x80C4000C299AE95511E6FFDE22A08A7D"
+    },
+    {
+        "Department": {
+            "id": "0x80C3000C295831B711E73EEC2DD2FC48",
+            "name": "Психология образования",
+            "code": "ПО"
+        },
+        "Group": {
+            "id": "0x80DD000C295831C111EB55E8A09747CA",
+            "name": "20ПО-ППО(м/з)ППСО-1"
+        },
+        "Teacher": {
+            "id": "0x80C9000C295831B711E8E99640E3ABEE",
+            "name": "Лобанова Анна Вячеславовна"
+        },
+        "Coords": {
+            "building": {
+                "id": "0x80C3000C295831B711E767BADC094FD5",
+                "name": "Дистанционно"
+            },
+            "floor": {
+                "id": "0x80DD000C295831C111EB0EF855410556",
+                "name": "Дистанционно"
+            },
+            "room": {
+                "index": "WebEx",
+                "id": "0x80DD000C295831C111EB0F85E0B7644C"
+            }
+        },
+        "Discipline": "Модуль 3 \"Проектирование и экспертиза эффективности программ в образовании и социальной сфере\"",
+        "SemesterName": "Весенний",
+        "Number": null,
+        "Type": null,
+        "TeacherFIO": "Лобанова Анна Вячеславовна",
+        "dayDate": "10.01.2022",
+        "dayOfWeekName": "понедельник",
+        "TypeShort": null,
+        "TimeStart": null,
+        "TimeEnd": null,
+        "lessonTimeRange": "10:40 (Консультация)",
+        "DisciplineID": "0x80DB000C295831C111EAC504EFBC46A0",
+        "TypeID": null,
+        "SemesterID": "0x80C4000C299AE95511E6FFDE22A08A7D"
+    },
+    {
+        "Department": {
+            "id": "0x80C3000C295831B711E73EEC3F63576A",
+            "name": "Экстремальная психология",
+            "code": "ЭП"
+        },
+        "Group": {
+            "id": "0x80E1000C295831C111EBF51581438FF1",
+            "name": "21ЭП-П(м/о)ППОР-1"
+        },
+        "Teacher": {
+            "id": "0x80C3000C295831B711E7F85960B17CD6",
+            "name": "Кокурин Алексей Владимирович"
+        },
+        "Coords": {
+            "building": {
+                "id": "0x80C3000C295831B711E767BADC094FD5",
+                "name": "Дистанционно"
+            },
+            "floor": {
+                "id": "0x80DD000C295831C111EB0EF855410556",
+                "name": "Дистанционно"
+            },
+            "room": {
+                "index": "WebEx",
+                "id": "0x80DD000C295831C111EB0F85E0B7644C"
+            }
+        },
+        "Discipline": "Прикладная юридическая психология в профессиях особого риска",
+        "SemesterName": "Весенний",
+        "Number": "6 пара",
+        "Type": "Лекции",
+        "TeacherFIO": "Кокурин Алексей Владимирович",
+        "dayDate": "10.01.2022",
+        "dayOfWeekName": "понедельник",
+        "TypeShort": "Лек.",
+        "TimeStart": "18:00:00",
+        "TimeEnd": "19:20:00",
+        "lessonTimeRange": "18:00 - 19:20",
+        "DisciplineID": "0x80C3000C295831B711E7710C3FCECFC3",
+        "TypeID": "0xAD88005056B76B4C11E6B2C498121654",
+        "SemesterID": "0x80C4000C299AE95511E6FFDE22A08A7D"
+    },
+    {
+        "Department": {
+            "id": "0x80C3000C295831B711E73EEC3F63576A",
+            "name": "Экстремальная психология",
+            "code": "ЭП"
+        },
+        "Group": {
+            "id": "0x80E1000C295831C111EBF51581438FF1",
+            "name": "21ЭП-П(м/о)ППОР-1"
+        },
+        "Teacher": {
+            "id": "0x80C3000C295831B711E7F85960B17CD6",
+            "name": "Кокурин Алексей Владимирович"
+        },
+        "Coords": {
+            "building": {
+                "id": "0x80C3000C295831B711E767BADC094FD5",
+                "name": "Дистанционно"
+            },
+            "floor": {
+                "id": "0x80DD000C295831C111EB0EF855410556",
+                "name": "Дистанционно"
+            },
+            "room": {
+                "index": "WebEx",
+                "id": "0x80DD000C295831C111EB0F85E0B7644C"
+            }
+        },
+        "Discipline": "Прикладная юридическая психология в профессиях особого риска",
+        "SemesterName": "Весенний",
+        "Number": "7 пара",
+        "Type": "Лекции",
+        "TeacherFIO": "Кокурин Алексей Владимирович",
+        "dayDate": "10.01.2022",
+        "dayOfWeekName": "понедельник",
+        "TypeShort": "Лек.",
+        "TimeStart": "19:30:00",
+        "TimeEnd": "20:50:00",
+        "lessonTimeRange": "19:30 - 20:50",
+        "DisciplineID": "0x80C3000C295831B711E7710C3FCECFC3",
+        "TypeID": "0xAD88005056B76B4C11E6B2C498121654",
+        "SemesterID": "0x80C4000C299AE95511E6FFDE22A08A7D"
+    }
+]

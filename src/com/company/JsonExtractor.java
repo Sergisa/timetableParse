@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class JsonExtractor {
@@ -17,35 +18,32 @@ public class JsonExtractor {
     }
 
     public List<TimeTableLine> getTimeTable(String file) {
-        List<TimeTableLine> timetableLines = new ArrayList<>();
+        TimeTableLine[] timetableLines = null;
         try {
 
             timetableLines = gson.fromJson(
                     new FileReader(file, StandardCharsets.UTF_8),
-                    new TypeToken<ArrayList<TimeTableLine>>() {
-                    }.getType()
+                    TimeTableLine[].class
             );
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return timetableLines;
+        return new ArrayList<>(Arrays.asList(timetableLines));
     }
 
     public List<Group> getGroups(String file) {
-        List<Group> timetableLines = new ArrayList<>();
+        Group[] timetableLines = null;
         try {
-
             timetableLines = gson.fromJson(
                     new FileReader(file, StandardCharsets.UTF_8),
-                    new TypeToken<ArrayList<Group>>() {
-                    }.getType()
+                    Group[].class
             );
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return timetableLines;
+        return new ArrayList<>(Arrays.asList(timetableLines));
     }
 
 }

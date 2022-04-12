@@ -4,7 +4,10 @@ import com.formdev.flatlaf.FlatDarkLaf;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -23,10 +26,13 @@ public class Main {
         strings.add("four 1 5 88 ");
         strings.add("five-six");
 
-        strings.stream()
-                .filter(element -> !element.contains("-"))
-                .map(s -> "null")
-                .forEach(System.out::println);
+
+        ArrayListManipulator manipulator = new ArrayListManipulator(strings);
+        manipulator
+                .filter(s -> s.contains("-"))
+                .map(s -> s + "A");
+
         System.out.println(strings);
+        System.out.println(manipulator.getStringList());
     }
 }

@@ -29,6 +29,10 @@ public class ArrayListManipulator {
         return this;
     }
 
+    public boolean hasAny(String s){
+        return stringList.contains(s);
+    }
+
     public List<String> getStringList() {
         return stringList;
     }
